@@ -1,0 +1,72 @@
+body > #container{        
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin: 30px;
+    }
+        
+#container>div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: -30px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 200px 200px 200px 200px;
+    padding: 30px;
+    grid-template-areas:
+    "a a a a b b b b b b c c"
+    "a a a a d d d d d d c c"
+    "e e e e e e f f g g g g"
+    "h h h h h h h h g g g g";
+    }
+
+.one {
+    background-color: red;
+    grid-area: a;
+    padding-top: 25%;
+    }
+
+.two {
+    background-color: yellow;
+    grid-area: b;
+    padding-top: 2px}
+
+.three {
+    background-color: rgb(252, 8, 158);
+    grid-area: c;
+    padding-top: 45%;
+    }
+
+.four {
+    background-color: rgb(9, 136, 9);
+    grid-area: d;
+    }
+
+.five {
+    background-color: rgb(248, 137, 10);
+    grid-area: e;
+    }
+
+.six {
+    background-color: rgb(16, 82, 224);
+    grid-area: f;
+    }
+
+.seven {
+    background-color: rgb(57, 5, 92);
+    grid-area: g;
+    padding-top:25%;
+    }
+
+.eight {
+    background-color: rgb(114, 89, 55);
+    grid-area: h;
+    }
+
+h2 {
+    font-size: 35px;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    padding-top: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    }  
