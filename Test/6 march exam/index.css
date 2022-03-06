@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(235, 207, 207);
+  }
+  #main_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  img {
+    height: 400px;
+    width: 300px;
+  }
+  
+  .container {
+    width: 350px;
+    text-align: left;
+    margin: 50px;
+  }
+  h2 {
+    margin: 0;
+    color: rgb(142, 47, 231);
+  }
+  
+  p {
+    margin: 0;
+    color: rgb(78, 20, 69);
+  }
+  button {
+      color: rgb(15, 148, 189);
+      background-color: rgb(233, 212, 181);
+  }
+
+  
