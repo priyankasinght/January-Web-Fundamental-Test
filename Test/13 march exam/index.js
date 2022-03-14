@@ -7,6 +7,7 @@ document.getElementById("close_popup").addEventListener('click', function () {
     document.getElementById("popup").style.display = "none";
     document.getElementById("header").style.display = "block";
 })
+
 const json_value = function (res) {
     return res.json();
 }
